@@ -1,0 +1,206 @@
+{
+  "events": [
+    {
+      "t": 120.06928157806396,
+      "action": "model-a -> 5,000 RPM",
+      "response": {
+        "model": "model-a",
+        "rpm": 5000,
+        "tpm": 60000000,
+        "expired": 12176,
+        "provider_update": 200
+      }
+    },
+    {
+      "t": 240.03459930419922,
+      "action": "model-a -> 30,000 RPM",
+      "response": {
+        "model": "model-a",
+        "rpm": 30000,
+        "tpm": 60000000,
+        "expired": 0,
+        "provider_update": 200
+      }
+    }
+  ],
+  "metrics": {
+    "totals": {
+      "submitted": 359998,
+      "waiting": 36878,
+      "in_flight": 165,
+      "succeeded": 242358,
+      "failed": 0,
+      "expired": 12721,
+      "rejected": 67876,
+      "completed": 242358,
+      "invariant_ok": true
+    },
+    "models": {
+      "model-a": {
+        "submitted": 215926,
+        "waiting": 17671,
+        "in_flight": 100,
+        "succeeded": 124044,
+        "failed": 0,
+        "expired": 12207,
+        "rejected": 61904,
+        "completed": 124044,
+        "invariant_ok": true,
+        "rpm_limit": 30000,
+        "tpm_limit": 60000000,
+        "window_requests": 29009,
+        "window_tokens": 26814344
+      },
+      "model-b": {
+        "submitted": 144072,
+        "waiting": 19207,
+        "in_flight": 65,
+        "succeeded": 118314,
+        "failed": 0,
+        "expired": 514,
+        "rejected": 5972,
+        "completed": 118314,
+        "invariant_ok": true,
+        "rpm_limit": 20000,
+        "tpm_limit": 40000000,
+        "window_requests": 19338,
+        "window_tokens": 17884382
+      }
+    },
+    "latency": {
+      "model-a": {
+        "count": 124044,
+        "p50_ms": 16479.71,
+        "p95_ms": 55465.16,
+        "p99_ms": 60111.72,
+        "max_ms": 61101.41,
+        "mean_ms": 18437.44
+      },
+      "model-b": {
+        "count": 118314,
+        "p50_ms": 31613.17,
+        "p95_ms": 60088.65,
+        "p99_ms": 60171.82,
+        "max_ms": 61289.76,
+        "mean_ms": 31925.08
+      },
+      "_all": {
+        "count": 242358,
+        "p50_ms": 20362.54,
+        "p95_ms": 60047.57,
+        "p99_ms": 60154.07,
+        "max_ms": 61289.76,
+        "mean_ms": 25021.82
+      }
+    },
+    "uptime_s": 362.8,
+    "in_flight_connections": 165
+  },
+  "audit": {
+    "model-a": {
+      "model": "model-a",
+      "accepted": 124243,
+      "tokens": 114902740,
+      "windows_checked": 30246,
+      "window_s": 60.0,
+      "resolution_s": 0.01,
+      "peak_window_requests": 29733,
+      "limit_rpm_at_peak": 30000.0,
+      "peak_rpm_ratio": 0.9911,
+      "peak_window_tokens": 27515873,
+      "limit_tpm_at_peak": 60000000.0,
+      "peak_tpm_ratio": 0.4586,
+      "violating_windows_rpm": 0,
+      "violating_windows_tpm": 0,
+      "pass": true,
+      "provider_counters": {
+        "accepted": 124243,
+        "rate_limited": 0,
+        "success": 124143,
+        "transient_error": 0,
+        "permanent_error": 0
+      },
+      "limit_history": [
+        {
+          "at": 1794422341.6790707,
+          "rpm": 30000,
+          "tpm": 60000000
+        },
+        {
+          "at": 1794422462.1470761,
+          "rpm": 5000,
+          "tpm": 60000000
+        },
+        {
+          "at": 1794422582.12704,
+          "rpm": 30000,
+          "tpm": 60000000
+        }
+      ]
+    },
+    "model-b": {
+      "model": "model-b",
+      "accepted": 118445,
+      "tokens": 109496090,
+      "windows_checked": 30245,
+      "window_s": 60.0,
+      "resolution_s": 0.01,
+      "peak_window_requests": 19812,
+      "limit_rpm_at_peak": 20000.0,
+      "peak_rpm_ratio": 0.9906,
+      "peak_window_tokens": 18323922,
+      "limit_tpm_at_peak": 40000000.0,
+      "peak_tpm_ratio": 0.4581,
+      "violating_windows_rpm": 0,
+      "violating_windows_tpm": 0,
+      "pass": true,
+      "provider_counters": {
+        "accepted": 118445,
+        "rate_limited": 0,
+        "success": 118376,
+        "transient_error": 0,
+        "permanent_error": 0
+      },
+      "limit_history": [
+        {
+          "at": 1794422341.679078,
+          "rpm": 20000,
+          "tpm": 40000000
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "criterion": "model-a stays within its current limits (auditor)",
+      "pass": true,
+      "detail": "peak 29,733 req/60 s vs max limit in window 30,000 (99.11%); TPM peak 45.86%; violating windows 0/0"
+    },
+    {
+      "criterion": "model-b stays within its current limits (auditor)",
+      "pass": true,
+      "detail": "peak 19,812 req/60 s vs max limit in window 20,000 (99.06%); TPM peak 45.81%; violating windows 0/0"
+    },
+    {
+      "criterion": "Model A adapts to the reduction without restart",
+      "pass": true,
+      "detail": "A send rate while constrained (after window drained): 4,932/min (limit 5,000); A trailing-60 s window just before restore: 4,933; before: 29,535/min"
+    },
+    {
+      "criterion": "Model A adapts to the restore without restart",
+      "pass": true,
+      "detail": "A send rate after restore: 29,161/min (limit 30,000)"
+    },
+    {
+      "criterion": "Model B continues processing while A is constrained",
+      "pass": true,
+      "detail": "B send rate before: 19,698/min, during A's constraint: 19,750/min (100.3%)"
+    },
+    {
+      "criterion": "Report shows configured limits and observed throughput over time",
+      "pass": true,
+      "detail": "see rpm.svg and the timeline table in reports/s2/report.md"
+    }
+  ],
+  "pass": true
+}

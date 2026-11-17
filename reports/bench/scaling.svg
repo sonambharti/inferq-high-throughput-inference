@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" font-family="Segoe UI, sans-serif" font-size="12">
+<rect width="860" height="320" fill="#ffffff"/>
+<text x="70" y="20" font-size="14" font-weight="600">Scaling curve: max throughput vs worker processes</text>
+<line x1="70" y1="274.0" x2="840" y2="274.0" stroke="#e5e7eb"/>
+<text x="64" y="278.0" text-anchor="end" fill="#6b7280">0</text>
+<line x1="70" y1="226.4" x2="840" y2="226.4" stroke="#e5e7eb"/>
+<text x="64" y="230.4" text-anchor="end" fill="#6b7280">1.1M</text>
+<line x1="70" y1="178.8" x2="840" y2="178.8" stroke="#e5e7eb"/>
+<text x="64" y="182.8" text-anchor="end" fill="#6b7280">2.1M</text>
+<line x1="70" y1="131.2" x2="840" y2="131.2" stroke="#e5e7eb"/>
+<text x="64" y="135.2" text-anchor="end" fill="#6b7280">3.2M</text>
+<line x1="70" y1="83.6" x2="840" y2="83.6" stroke="#e5e7eb"/>
+<text x="64" y="87.6" text-anchor="end" fill="#6b7280">4.3M</text>
+<line x1="70" y1="36.0" x2="840" y2="36.0" stroke="#e5e7eb"/>
+<text x="64" y="40.0" text-anchor="end" fill="#6b7280">5.4M</text>
+<text x="70.0" y="290" text-anchor="middle" fill="#6b7280">1</text>
+<text x="198.3" y="290" text-anchor="middle" fill="#6b7280">2</text>
+<text x="326.7" y="290" text-anchor="middle" fill="#6b7280">3</text>
+<text x="455.0" y="290" text-anchor="middle" fill="#6b7280">4</text>
+<text x="583.3" y="290" text-anchor="middle" fill="#6b7280">6</text>
+<text x="711.7" y="290" text-anchor="middle" fill="#6b7280">7</text>
+<text x="840.0" y="290" text-anchor="middle" fill="#6b7280">8</text>
+<text x="455.0" y="314" text-anchor="middle" fill="#374151">worker processes</text>
+<text x="14" y="155.0" transform="rotate(-90 14 155.0)" text-anchor="middle" fill="#374151">completed / s</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="1.8" points="70.0,200.8 180.0,127.8 400.0,57.6 840.0,110.1"/>
+<line x1="80" y1="292" x2="98" y2="292" stroke="#2563eb" stroke-width="2"/>
+<text x="104" y="296" fill="#111827">max sustained completed / s</text>
+</svg>

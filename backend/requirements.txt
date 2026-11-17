@@ -1,0 +1,8 @@
+fastapi>=0.110
+# Pinned: newer pydantic-core builds are blocked by Windows Smart App Control on this machine.
+pydantic==2.12.5
+uvicorn[standard]>=0.29
+aiohttp>=3.9
+numpy>=1.26
+pyyaml>=6.0
+pytest>=8.0

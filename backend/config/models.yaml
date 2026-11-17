@@ -1,0 +1,25 @@
+# Model limits used by the control plane AND the provider simulator.
+# Change limits at runtime with:  PUT /v1/models/{model}/limits  (or the dashboard).
+defaults:
+  deadline_s: 60          # a request that cannot get a send slot before this is rejected/expired
+  max_attempts: 4         # provider attempts per request (transient failures / 429 are retried)
+  guard_fraction: 0.01    # ledger keeps 1% headroom below each limit (clock-skew guard)
+
+models:
+  model-a:
+    rpm: 50000
+    tpm: 100000000
+  model-b:
+    rpm: 20000
+    tpm: 40000000
+
+# Provider simulator behaviour (per model; "default" applies to any model not listed).
+simulator:
+  default:
+    latency_ms: 150        # base latency
+    jitter_ms: 50          # uniform +/- jitter
+    tail_prob: 0.01        # probability of a slow "tail" response
+    tail_ms: 1000          # max extra latency for tail responses
+    p_transient: 0.0       # probability of a retryable failure (HTTP 503)
+    p_permanent: 0.0       # probability of a non-retryable failure (HTTP 400)
+    token_noise: [0.8, 1.05]  # actual_tokens = estimated * U(lo, hi)

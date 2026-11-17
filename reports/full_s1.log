@@ -1,0 +1,76 @@
+  [loadgen] t=    5s sent=5002 acked=4991 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   10s sent=10003 acked=9993 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   15s sent=15004 acked=14980 rejected=0 errors=0 in-flight=24
+  [loadgen] t=   20s sent=20005 acked=19983 rejected=0 errors=0 in-flight=22
+  [loadgen] t=   25s sent=25007 acked=24983 rejected=0 errors=0 in-flight=24
+  [loadgen] t=   30s sent=30008 acked=30000 rejected=0 errors=0 in-flight=8
+  [loadgen] t=   35s sent=35010 acked=34985 rejected=0 errors=0 in-flight=25
+  [loadgen] t=   40s sent=40011 acked=39984 rejected=0 errors=0 in-flight=27
+  [loadgen] t=   45s sent=45013 acked=44996 rejected=0 errors=0 in-flight=17
+  [loadgen] t=   50s sent=50014 acked=50009 rejected=0 errors=0 in-flight=5
+  [loadgen] t=   55s sent=55017 acked=55006 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   60s sent=60017 acked=60006 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   65s sent=65018 acked=65010 rejected=0 errors=0 in-flight=15
+  [loadgen] t=   70s sent=70018 acked=70012 rejected=0 errors=0 in-flight=6
+  [loadgen] t=   75s sent=75018 acked=75016 rejected=0 errors=0 in-flight=2
+  [loadgen] t=   80s sent=80020 acked=80004 rejected=0 errors=0 in-flight=21
+  [loadgen] t=   85s sent=85028 acked=85013 rejected=0 errors=0 in-flight=15
+  [loadgen] t=   90s sent=90032 acked=90021 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   95s sent=95036 acked=95027 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  100s sent=100042 acked=100031 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  105s sent=105050 acked=105038 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  110s sent=110050 acked=110042 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  115s sent=115052 acked=115043 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  120s sent=120060 acked=120051 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  125s sent=125061 acked=125059 rejected=0 errors=0 in-flight=2
+  [loadgen] t=  130s sent=130065 acked=130054 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  135s sent=135065 acked=135054 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  140s sent=140067 acked=140057 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  145s sent=145067 acked=145065 rejected=0 errors=0 in-flight=4
+  [loadgen] t=  150s sent=150071 acked=150059 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  155s sent=155080 acked=155070 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  160s sent=160080 acked=160070 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  165s sent=165080 acked=165070 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  170s sent=170080 acked=170069 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  175s sent=175082 acked=175075 rejected=0 errors=0 in-flight=7
+  [loadgen] t=  180s sent=180085 acked=180076 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  185s sent=185086 acked=185076 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  190s sent=190096 acked=190084 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  195s sent=195105 acked=195083 rejected=0 errors=0 in-flight=22
+  [loadgen] t=  200s sent=200107 acked=200084 rejected=0 errors=0 in-flight=23
+  [loadgen] t=  205s sent=205107 acked=205091 rejected=0 errors=0 in-flight=16
+  [loadgen] t=  210s sent=210107 acked=210093 rejected=0 errors=0 in-flight=14
+  [loadgen] t=  215s sent=215108 acked=215086 rejected=0 errors=0 in-flight=22
+  [loadgen] t=  220s sent=220109 acked=220105 rejected=0 errors=0 in-flight=4
+  [loadgen] t=  225s sent=225111 acked=225088 rejected=0 errors=0 in-flight=23
+  [loadgen] t=  230s sent=230113 acked=230096 rejected=0 errors=0 in-flight=22
+  [loadgen] t=  235s sent=235114 acked=235099 rejected=0 errors=0 in-flight=15
+  [loadgen] t=  240s sent=240121 acked=240111 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  245s sent=245122 acked=245110 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  250s sent=250123 acked=250118 rejected=0 errors=0 in-flight=7
+  [loadgen] t=  255s sent=255125 acked=255120 rejected=0 errors=0 in-flight=5
+  [loadgen] t=  260s sent=260126 acked=260121 rejected=0 errors=0 in-flight=5
+  [loadgen] t=  265s sent=265126 acked=265124 rejected=0 errors=0 in-flight=3
+  [loadgen] t=  270s sent=270128 acked=270120 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  275s sent=275138 acked=275126 rejected=51 errors=0 in-flight=12
+  [loadgen] t=  280s sent=280138 acked=280132 rejected=1101 errors=0 in-flight=10
+  [loadgen] t=  285s sent=285143 acked=285132 rejected=1968 errors=0 in-flight=11
+  [loadgen] t=  290s sent=290148 acked=290139 rejected=3014 errors=0 in-flight=9
+  [loadgen] t=  295s sent=295154 acked=295142 rejected=3879 errors=0 in-flight=12
+  [loadgen] t=  300s sent=300155 acked=300151 rejected=4763 errors=0 in-flight=4
+  [loadgen] t=  305s sent=305159 acked=305147 rejected=5883 errors=0 in-flight=12
+  [loadgen] t=  310s sent=310161 acked=310152 rejected=6759 errors=0 in-flight=9
+  [loadgen] t=  315s sent=315165 acked=315154 rejected=7637 errors=0 in-flight=11
+  [loadgen] t=  320s sent=320173 acked=320162 rejected=8671 errors=0 in-flight=11
+  [loadgen] t=  325s sent=325174 acked=325163 rejected=9544 errors=0 in-flight=11
+
+=== Scenario 1: reach the available provider capacity (50k RPM / 100M TPM) ===
+  driving 1000 req/s (120% of limit) of 1000-token requests for 330s ...
+  [PASS] Completion >= 90% of allowed capacity after warm-up: 49,023 completed/min after 30s warm-up = 98.0% of 50,000 (lowest full 60 s window: 48,522)
+  [PASS] No observed 60 s window exceeds the RPM limit (auditor): peak 49,539 req / 60 s vs limit 50,000 (99.08%); 27,213 windows at 10 ms resolution
+  [PASS] No observed 60 s window exceeds the TPM limit (auditor): peak 45,810,515 tokens / 60 s vs limit 100,000,000 (45.81%)
+  [PASS] Every submitted request is accounted for: load generator acked 329,992 (transport errors 0, safe connect retries 0); server submitted 329,992 = completed 271,397 + waiting 47,580 + expired 501 + rejected 10,514
+  [PASS] Run was not stalled by the environment (sleep / suspend): load phase took 330s for a 330s schedule
+  report: E:\Assignments\ConsumaAssignment\reports\s1\report.md
+
+Summary: s1=PASS

@@ -1,0 +1,123 @@
+{
+  "loadgen": {
+    "submitted": 329992,
+    "accepted": 319478,
+    "rejected": 10514,
+    "http_errors": 0,
+    "ack_ms": [],
+    "connect_retries": 0,
+    "error_kinds": {},
+    "lag_ms_max": 26.33976936340332,
+    "started_at": 1794422806.4098816,
+    "ended_at": 1794423136.4137857
+  },
+  "metrics": {
+    "totals": {
+      "submitted": 329992,
+      "waiting": 47411,
+      "in_flight": 169,
+      "succeeded": 271397,
+      "failed": 0,
+      "expired": 501,
+      "rejected": 10514,
+      "completed": 271397,
+      "invariant_ok": true
+    },
+    "models": {
+      "model-a": {
+        "submitted": 329992,
+        "waiting": 47411,
+        "in_flight": 169,
+        "succeeded": 271397,
+        "failed": 0,
+        "expired": 501,
+        "rejected": 10514,
+        "completed": 271397,
+        "invariant_ok": true,
+        "rpm_limit": 50000,
+        "tpm_limit": 100000000,
+        "window_requests": 48593,
+        "window_tokens": 44933729
+      }
+    },
+    "latency": {
+      "model-a": {
+        "count": 271397,
+        "p50_ms": 29434.18,
+        "p95_ms": 57235.18,
+        "p99_ms": 59741.83,
+        "max_ms": 61142.75,
+        "mean_ms": 29728.11
+      },
+      "_all": {
+        "count": 271397,
+        "p50_ms": 29434.18,
+        "p95_ms": 57235.18,
+        "p99_ms": 59741.83,
+        "max_ms": 61142.75,
+        "mean_ms": 29728.11
+      }
+    },
+    "uptime_s": 332.6,
+    "in_flight_connections": 169
+  },
+  "audit": {
+    "model": "model-a",
+    "accepted": 271731,
+    "tokens": 251257665,
+    "windows_checked": 27213,
+    "window_s": 60.0,
+    "resolution_s": 0.01,
+    "peak_window_requests": 49539,
+    "limit_rpm_at_peak": 50000.0,
+    "peak_rpm_ratio": 0.99078,
+    "peak_window_tokens": 45810515,
+    "limit_tpm_at_peak": 100000000.0,
+    "peak_tpm_ratio": 0.45811,
+    "violating_windows_rpm": 0,
+    "violating_windows_tpm": 0,
+    "pass": true,
+    "provider_counters": {
+      "accepted": 271731,
+      "rate_limited": 0,
+      "success": 271561,
+      "transient_error": 0,
+      "permanent_error": 0
+    },
+    "limit_history": [
+      {
+        "at": 1794422805.8344316,
+        "rpm": 50000,
+        "tpm": 100000000
+      }
+    ]
+  },
+  "checks": [
+    {
+      "criterion": "Completion >= 90% of allowed capacity after warm-up",
+      "pass": true,
+      "detail": "49,023 completed/min after 30s warm-up = 98.0% of 50,000 (lowest full 60 s window: 48,522)"
+    },
+    {
+      "criterion": "No observed 60 s window exceeds the RPM limit (auditor)",
+      "pass": true,
+      "detail": "peak 49,539 req / 60 s vs limit 50,000 (99.08%); 27,213 windows at 10 ms resolution"
+    },
+    {
+      "criterion": "No observed 60 s window exceeds the TPM limit (auditor)",
+      "pass": true,
+      "detail": "peak 45,810,515 tokens / 60 s vs limit 100,000,000 (45.81%)"
+    },
+    {
+      "criterion": "Every submitted request is accounted for",
+      "pass": true,
+      "detail": "load generator acked 329,992 (transport errors 0, safe connect retries 0); server submitted 329,992 = completed 271,397 + waiting 47,580 + expired 501 + rejected 10,514"
+    },
+    {
+      "criterion": "Run was not stalled by the environment (sleep / suspend)",
+      "pass": true,
+      "detail": "load phase took 330s for a 330s schedule"
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,133 @@
+{
+  "batch_id": "b-69f535afc5ce",
+  "ack_ms": 281.9526195526123,
+  "status": {
+    "batch_id": "b-69f535afc5ce",
+    "counts": {
+      "expired": 0,
+      "failed": 212,
+      "rejected": 0,
+      "succeeded": 9788
+    },
+    "created_at": 1794422707.3736882,
+    "duration_s": 16.692,
+    "failed": 212,
+    "results_url": "http://127.0.0.1:8000/v1/batches/b-69f535afc5ce/results",
+    "sealed_at": 1794422724.0652888,
+    "status": "completed_with_errors",
+    "successful": 9788,
+    "summary_sha256": "99c6e1a60a64dba17e0c11aa6605d88dd3d12d4bda435cce074b9d0a132e3144",
+    "total": 10000,
+    "callback": {
+      "url": "http://127.0.0.1:9100/callback",
+      "status": "delivered",
+      "attempts": 3,
+      "next_attempt_at": 1794422727.5783489,
+      "delivered_at": 1794422727.582958,
+      "history": [
+        {
+          "attempt": 1,
+          "at": 1794422724.203367,
+          "status_code": 503,
+          "error": null,
+          "elapsed_ms": 135.3
+        },
+        {
+          "attempt": 2,
+          "at": 1794422725.4201255,
+          "status_code": 503,
+          "error": null,
+          "elapsed_ms": 1.8
+        },
+        {
+          "attempt": 3,
+          "at": 1794422727.5808012,
+          "status_code": 200,
+          "error": null,
+          "elapsed_ms": 2.1
+        }
+      ]
+    }
+  },
+  "received": {
+    "delivered": {
+      "b-69f535afc5ce": {
+        "received_at": 1794422727.5823884,
+        "attempt": 3,
+        "body": {
+          "batch_id": "b-69f535afc5ce",
+          "counts": {
+            "expired": 0,
+            "failed": 212,
+            "rejected": 0,
+            "succeeded": 9788
+          },
+          "created_at": 1794422707.3736882,
+          "duration_s": 16.692,
+          "failed": 212,
+          "results_url": "http://127.0.0.1:8000/v1/batches/b-69f535afc5ce/results",
+          "sealed_at": 1794422724.0652888,
+          "status": "completed_with_errors",
+          "successful": 9788,
+          "summary_sha256": "99c6e1a60a64dba17e0c11aa6605d88dd3d12d4bda435cce074b9d0a132e3144",
+          "total": 10000
+        }
+      }
+    },
+    "log": [
+      {
+        "batch_id": "b-69f535afc5ce",
+        "attempt": 1,
+        "at": 1794422724.3380086,
+        "header_attempt": "1",
+        "accepted": false
+      },
+      {
+        "batch_id": "b-69f535afc5ce",
+        "attempt": 2,
+        "at": 1794422725.4215806,
+        "header_attempt": "2",
+        "accepted": false
+      },
+      {
+        "batch_id": "b-69f535afc5ce",
+        "attempt": 3,
+        "at": 1794422727.5823836,
+        "header_attempt": "3",
+        "accepted": true
+      }
+    ]
+  },
+  "states": {
+    "succeeded": 9788,
+    "failed": 212
+  },
+  "checks": [
+    {
+      "criterion": "Initial acknowledgement within 1 second",
+      "pass": true,
+      "detail": "282 ms for 10,000 requests"
+    },
+    {
+      "criterion": "Callback sent only after all requests reached a final state",
+      "pass": true,
+      "detail": "last request final at +16.95s, sealed at +16.95s, first callback attempt at +17.09s"
+    },
+    {
+      "criterion": "Callback delivery succeeds after the destination recovers",
+      "pass": true,
+      "detail": "attempt status codes [503, 503, 200]; delivered on attempt 3"
+    },
+    {
+      "criterion": "Callback summary matches the batch status returned by the API",
+      "pass": true,
+      "detail": "callback: status=completed_with_errors total=10000 successful=9788 failed=212; API identical=True (sha256 99c6e1a60a64...)"
+    },
+    {
+      "criterion": "Every request id appears exactly once in the final batch result",
+      "pass": true,
+      "detail": "10,000 results, 10,000 unique request ids, all 10,000 client ids present once"
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,25 @@
+# Demo / Loom configuration.
+# Limits match Scenario 2. Total capacity (~830 req/s) stays inside what one Python control plane
+# serves over HTTP (~1.1k req/s), so the dashboard stays smooth while overdriven.
+defaults:
+  deadline_s: 60
+  max_attempts: 4
+  guard_fraction: 0.01
+
+models:
+  model-a:
+    rpm: 30000
+    tpm: 60000000
+  model-b:
+    rpm: 20000
+    tpm: 40000000
+
+simulator:
+  default:
+    latency_ms: 150
+    jitter_ms: 50
+    tail_prob: 0.01
+    tail_ms: 1000
+    p_transient: 0.02      # some retries, so the batch shows real failure handling
+    p_permanent: 0.01
+    token_noise: [0.8, 1.05]

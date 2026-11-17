@@ -1,0 +1,74 @@
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --line: #e5e7eb;
+  --text: #111827;
+  --muted: #6b7280;
+  --blue: #2563eb;
+  --green: #16a34a;
+  --red: #dc2626;
+  --amber: #b45309;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.5 -apple-system, 'Segoe UI', Inter, Roboto, sans-serif;
+}
+.page { max-width: 1320px; margin: 0 auto; padding: 24px 20px 48px; }
+h1 { margin: 0; font-size: 26px; letter-spacing: -0.02em; }
+h2 { margin: 0 0 12px; font-size: 16px; }
+code { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 12px; }
+.top p { margin: 2px 0 0; }
+.top-right { display: flex; gap: 10px; align-items: center; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 16px; }
+.grid .card { margin-bottom: 0; }
+.grid.two { margin-top: 16px; grid-template-columns: minmax(320px, 1fr) minmax(520px, 2fr); }
+.row-between { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.stat { background: #f9fafb; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.stat-v { font-size: 20px; font-weight: 650; }
+.stat-l { color: var(--muted); font-size: 12px; }
+.s-succeeded .stat-v { color: var(--green); }
+.s-failed .stat-v, .s-expired .stat-v, .s-rejected .stat-v { color: var(--red); }
+.pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.pill.ok { background: #dcfce7; color: #166534; }
+.pill.bad { background: #fee2e2; color: #991b1b; }
+.pill.warn { background: #fef3c7; color: #92400e; }
+.pill.info { background: #dbeafe; color: #1e40af; }
+.gauges { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px; }
+.gauge-top { display: flex; justify-content: space-between; gap: 8px; }
+.bar { height: 8px; background: #f1f5f9; border-radius: 999px; overflow: hidden; margin-top: 4px; }
+.fill { height: 100%; border-radius: 999px; transition: width 0.4s; }
+.fill.ok { background: var(--blue); }
+.fill.warn { background: #f59e0b; }
+.fill.bad { background: var(--red); }
+.chart { margin: 4px 0; }
+.mini-stats { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-size: 12px; margin: 8px 0; }
+.mini-stats b { color: var(--text); }
+.limits { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-top: 6px; }
+.limits label { display: flex; flex-direction: column; font-size: 12px; color: var(--muted); gap: 3px; }
+.limits label.grow { flex: 1; min-width: 220px; }
+input, select { border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font: inherit; width: 140px; background: #fff; }
+.limits label.grow input { width: 100%; }
+button { border: 1px solid var(--blue); background: var(--blue); color: #fff; border-radius: 6px; padding: 7px 12px; font: inherit; font-weight: 600; cursor: pointer; }
+button.ghost { background: #fff; color: var(--blue); }
+button.danger { background: var(--red); border-color: var(--red); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+.table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+.table th, .table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.table th { color: var(--muted); font-weight: 600; font-size: 12px; }
+.table.inner { margin-top: 6px; background: #fafafa; }
+tr.click { cursor: pointer; }
+tr.click:hover { background: #f9fafb; }
+td.detail { background: #fcfcfd; }
+footer { margin-top: 24px; }
+@media (max-width: 900px) {
+  .grid, .grid.two { grid-template-columns: 1fr; }
+  .gauges { grid-template-columns: 1fr; }
+}

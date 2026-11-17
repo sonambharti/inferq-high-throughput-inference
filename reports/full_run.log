@@ -1,0 +1,162 @@
+  [loadgen] t=    5s sent=5007 acked=4998 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   10s sent=10011 acked=10000 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   15s sent=15018 acked=15005 rejected=0 errors=0 in-flight=13
+  [loadgen] t=   20s sent=20019 acked=20008 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   25s sent=25022 acked=25011 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   30s sent=30033 acked=30022 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   35s sent=35035 acked=35030 rejected=0 errors=0 in-flight=7
+  [loadgen] t=   40s sent=40043 acked=40032 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   45s sent=45047 acked=45038 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   50s sent=50049 acked=50040 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   55s sent=55058 acked=55049 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   60s sent=60059 acked=60050 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   65s sent=65060 acked=65051 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   70s sent=70065 acked=70054 rejected=0 errors=0 in-flight=11
+  [loadgen] t=   75s sent=75066 acked=75054 rejected=0 errors=0 in-flight=12
+  [loadgen] t=   80s sent=80070 acked=80053 rejected=0 errors=0 in-flight=17
+  [loadgen] t=   85s sent=85071 acked=85062 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   90s sent=90073 acked=90064 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   95s sent=95075 acked=95073 rejected=0 errors=0 in-flight=2
+  [loadgen] t=  100s sent=100077 acked=100073 rejected=0 errors=0 in-flight=7
+  [loadgen] t=  105s sent=105086 acked=105075 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  110s sent=110092 acked=110080 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  115s sent=115096 acked=115077 rejected=0 errors=0 in-flight=19
+  [loadgen] t=  120s sent=120099 acked=120075 rejected=0 errors=0 in-flight=24
+  [loadgen] t=  125s sent=125101 acked=125087 rejected=0 errors=0 in-flight=14
+  [loadgen] t=  130s sent=130109 acked=130101 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  135s sent=135110 acked=135102 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  140s sent=140114 acked=140101 rejected=0 errors=0 in-flight=13
+  [loadgen] t=  145s sent=145114 acked=145109 rejected=0 errors=0 in-flight=5
+  [loadgen] t=  150s sent=150114 acked=150107 rejected=0 errors=0 in-flight=15
+  [loadgen] t=  155s sent=155124 acked=155113 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  160s sent=160131 acked=160120 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  165s sent=165132 acked=165123 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  170s sent=170139 acked=170130 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  175s sent=175140 acked=175129 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  180s sent=180145 acked=180134 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  185s sent=185147 acked=185135 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  190s sent=190147 acked=190138 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  195s sent=195148 acked=195146 rejected=0 errors=0 in-flight=2
+  [loadgen] t=  200s sent=200154 acked=200143 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  205s sent=205155 acked=205143 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  210s sent=210156 acked=210148 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  215s sent=215163 acked=215154 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  220s sent=220172 acked=220160 rejected=0 errors=0 in-flight=12
+  [loadgen] t=  225s sent=225173 acked=225163 rejected=0 errors=0 in-flight=10
+  [loadgen] t=  230s sent=230179 acked=230168 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  235s sent=235180 acked=235172 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  240s sent=240182 acked=240177 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  245s sent=245189 acked=245178 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  250s sent=250194 acked=250183 rejected=0 errors=0 in-flight=11
+  [loadgen] t=  255s sent=255200 acked=255176 rejected=0 errors=0 in-flight=24
+  [loadgen] t=  260s sent=260202 acked=260178 rejected=0 errors=0 in-flight=24
+  [loadgen] t=  265s sent=265208 acked=265085 rejected=0 errors=0 in-flight=123
+  [loadgen] t=  270s sent=270216 acked=270208 rejected=0 errors=0 in-flight=8
+  [loadgen] t=  275s sent=275218 acked=275180 rejected=0 errors=0 in-flight=38
+  [loadgen] t=  280s sent=280229 acked=280214 rejected=1111 errors=0 in-flight=15
+  [loadgen] t=  285s sent=285230 acked=285196 rejected=1985 errors=0 in-flight=34
+  [loadgen] t=  290s sent=290232 acked=290207 rejected=3112 errors=0 in-flight=25
+  [loadgen] t=  295s sent=295235 acked=295228 rejected=3971 errors=0 in-flight=7
+  [loadgen] t=  300s sent=300238 acked=300230 rejected=4855 errors=0 in-flight=8
+  [loadgen] t=    5s sent=5006 acked=4838 rejected=0 errors=0 in-flight=168
+  [loadgen] t=   10s sent=10011 acked=9999 rejected=0 errors=0 in-flight=12
+  [loadgen] t=   15s sent=15026 acked=14999 rejected=0 errors=0 in-flight=27
+  [loadgen] t=   20s sent=20028 acked=20021 rejected=0 errors=0 in-flight=7
+  [loadgen] t=   25s sent=25028 acked=25023 rejected=0 errors=0 in-flight=5
+  [loadgen] t=   30s sent=30028 acked=30003 rejected=0 errors=0 in-flight=25
+  [loadgen] t=   35s sent=35032 acked=35023 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   40s sent=40032 acked=40028 rejected=0 errors=0 in-flight=6
+  [loadgen] t=   45s sent=45039 acked=45027 rejected=0 errors=0 in-flight=12
+  [loadgen] t=   50s sent=50040 acked=50027 rejected=0 errors=0 in-flight=13
+  [loadgen] t=   55s sent=55048 acked=55031 rejected=0 errors=0 in-flight=17
+  [loadgen] t=   60s sent=60049 acked=60040 rejected=0 errors=0 in-flight=9
+  [loadgen] t=   65s sent=65054 acked=65041 rejected=0 errors=0 in-flight=13
+  [loadgen] t=   70s sent=70056 acked=70052 rejected=0 errors=0 in-flight=7
+  [loadgen] t=   75s sent=75059 acked=75049 rejected=0 errors=0 in-flight=10
+  [loadgen] t=   80s sent=80060 acked=80054 rejected=0 errors=0 in-flight=6
+  [loadgen] t=   85s sent=85060 acked=85052 rejected=0 errors=0 in-flight=8
+  [loadgen] t=   90s sent=90061 acked=90056 rejected=0 errors=0 in-flight=5
+  [loadgen] t=   95s sent=95062 acked=95060 rejected=0 errors=0 in-flight=4
+  [loadgen] t=  100s sent=100064 acked=100018 rejected=0 errors=0 in-flight=46
+  [loadgen] t=  105s sent=105065 acked=105060 rejected=0 errors=0 in-flight=5
+  [loadgen] t=  110s sent=110067 acked=110054 rejected=0 errors=0 in-flight=13
+  [loadgen] t=  115s sent=115067 acked=115058 rejected=0 errors=0 in-flight=9
+  [loadgen] t=  120s sent=120068 acked=120048 rejected=1 errors=0 in-flight=23
+  [loadgen] t=  125s sent=125069 acked=125058 rejected=2560 errors=0 in-flight=11
+  [loadgen] t=  130s sent=130069 acked=130060 rejected=5082 errors=0 in-flight=9
+  [loadgen] t=  135s sent=135075 acked=135064 rejected=7650 errors=0 in-flight=11
+  [loadgen] t=  140s sent=140075 acked=140067 rejected=10241 errors=0 in-flight=8
+  [loadgen] t=  145s sent=145086 acked=145074 rejected=12848 errors=0 in-flight=12
+  [loadgen] t=  150s sent=150089 acked=150075 rejected=15454 errors=0 in-flight=14
+  [loadgen] t=  155s sent=155089 acked=155078 rejected=17983 errors=0 in-flight=11
+  [loadgen] t=  160s sent=160091 acked=160081 rejected=20581 errors=0 in-flight=10
+  [loadgen] t=  165s sent=165098 acked=165088 rejected=23210 errors=0 in-flight=10
+  [loadgen] t=  170s sent=170098 acked=170086 rejected=25769 errors=0 in-flight=16
+  [loadgen] t=  175s sent=175106 acked=175095 rejected=28308 errors=0 in-flight=11
+  [loadgen] t=  180s sent=180113 acked=180102 rejected=30912 errors=0 in-flight=11
+  [loadgen] t=  185s sent=185115 acked=185110 rejected=33443 errors=0 in-flight=5
+  [loadgen] t=  190s sent=190117 acked=190102 rejected=36026 errors=0 in-flight=15
+  [loadgen] t=  195s sent=195118 acked=195049 rejected=38599 errors=0 in-flight=69
+  [loadgen] t=  200s sent=200119 acked=200098 rejected=41219 errors=0 in-flight=21
+  [loadgen] t=  205s sent=205132 acked=205117 rejected=43840 errors=0 in-flight=15
+  [loadgen] t=  210s sent=210139 acked=210131 rejected=46434 errors=0 in-flight=8
+  [loadgen] t=  215s sent=215149 acked=215138 rejected=49044 errors=0 in-flight=11
+  [loadgen] t=  220s sent=220151 acked=220146 rejected=51636 errors=0 in-flight=5
+  [loadgen] t=  225s sent=225152 acked=225143 rejected=54241 errors=0 in-flight=9
+  [loadgen] t=  230s sent=230152 acked=230141 rejected=56801 errors=0 in-flight=11
+  [loadgen] t=  235s sent=235153 acked=235144 rejected=59377 errors=0 in-flight=9
+  [loadgen] t=  240s sent=240162 acked=240151 rejected=61904 errors=0 in-flight=11
+  [loadgen] t=  245s sent=245170 acked=245159 rejected=61904 errors=0 in-flight=11
+  [loadgen] t=  250s sent=250172 acked=250167 rejected=61904 errors=0 in-flight=5
+  [loadgen] t=  255s sent=255174 acked=255163 rejected=61904 errors=0 in-flight=11
+  [loadgen] t=  260s sent=260181 acked=259900 rejected=61904 errors=0 in-flight=281
+  [loadgen] t=  265s sent=265183 acked=265176 rejected=61904 errors=0 in-flight=10
+  [loadgen] t=  270s sent=270184 acked=270173 rejected=61904 errors=0 in-flight=11
+  [loadgen] t=  275s sent=275191 acked=275180 rejected=61904 errors=0 in-flight=11
+  [loadgen] t=  280s sent=280201 acked=280190 rejected=62181 errors=0 in-flight=11
+  [loadgen] t=  285s sent=285210 acked=285200 rejected=62543 errors=0 in-flight=10
+  [loadgen] t=  290s sent=290213 acked=290201 rejected=62990 errors=0 in-flight=12
+  [loadgen] t=  295s sent=295218 acked=295200 rejected=63343 errors=0 in-flight=18
+  [loadgen] t=  300s sent=300223 acked=300205 rejected=63774 errors=0 in-flight=18
+  [loadgen] t=  305s sent=305227 acked=305222 rejected=64067 errors=0 in-flight=5
+  [loadgen] t=  310s sent=310230 acked=310224 rejected=64423 errors=0 in-flight=6
+  [loadgen] t=  315s sent=315235 acked=315224 rejected=64887 errors=0 in-flight=11
+  [loadgen] t=  320s sent=320245 acked=320234 rejected=65241 errors=0 in-flight=11
+  [loadgen] t=  325s sent=325252 acked=325236 rejected=65685 errors=0 in-flight=16
+  [loadgen] t=  330s sent=330253 acked=330236 rejected=66043 errors=0 in-flight=18
+  [loadgen] t=  335s sent=335263 acked=335205 rejected=66167 errors=0 in-flight=58
+  [loadgen] t=  340s sent=340264 acked=340255 rejected=66373 errors=0 in-flight=9
+  [loadgen] t=  345s sent=345266 acked=345257 rejected=66730 errors=0 in-flight=9
+  [loadgen] t=  350s sent=350267 acked=350262 rejected=67173 errors=0 in-flight=5
+  [loadgen] t=  355s sent=355272 acked=355262 rejected=67540 errors=0 in-flight=10
+
+=== Scenario 1: reach the available provider capacity (50k RPM / 100M TPM) ===
+  driving 1000 req/s (120% of limit) of 1000-token requests for 330s ...
+  [PASS] Completion >= 90% of allowed capacity after warm-up: 49,097 completed/min after 30s warm-up = 98.2% of 50,000 (lowest full 60 s window: 48,479)
+  [PASS] No observed 60 s window exceeds the RPM limit (auditor): peak 49,500 req / 60 s vs limit 50,000 (99.00%); 41,519 windows at 10 ms resolution
+  [PASS] No observed 60 s window exceeds the TPM limit (auditor): peak 45,790,215 tokens / 60 s vs limit 100,000,000 (45.79%)
+  [FAIL] Every submitted request is accounted for: load generator acked 301,901 (transport errors 245, safe connect retries 0); server submitted 302,146 = completed 247,406 + waiting 0 + expired 49,419 + rejected 5,321
+  report: E:\Assignments\ConsumaAssignment\reports\s1\report.md
+
+=== Scenario 2: different models and changing limits ===
+  driving 1000 req/s (A 60% / B 40%, each 120% of its limit) for 360s; A -> 5,000 RPM at t=120s, restored at t=240s
+  t=120s limit drop applied: {'model': 'model-a', 'rpm': 5000, 'tpm': 60000000, 'expired': 12176, 'provider_update': 200}
+  t=240s limit restored: {'model': 'model-a', 'rpm': 30000, 'tpm': 60000000, 'expired': 0, 'provider_update': 200}
+  [PASS] model-a stays within its current limits (auditor): peak 29,733 req/60 s vs max limit in window 30,000 (99.11%); TPM peak 45.86%; violating windows 0/0
+  [PASS] model-b stays within its current limits (auditor): peak 19,812 req/60 s vs max limit in window 20,000 (99.06%); TPM peak 45.81%; violating windows 0/0
+  [PASS] Model A adapts to the reduction without restart: A send rate while constrained (after window drained): 4,932/min (limit 5,000); A trailing-60 s window just before restore: 4,933; before: 29,535/min
+  [PASS] Model A adapts to the restore without restart: A send rate after restore: 29,161/min (limit 30,000)
+  [PASS] Model B continues processing while A is constrained: B send rate before: 19,698/min, during A's constraint: 19,750/min (100.3%)
+  [PASS] Report shows configured limits and observed throughput over time: see rpm.svg and the timeline table in reports/s2/report.md
+  report: E:\Assignments\ConsumaAssignment\reports\s2\report.md
+
+=== Scenario 3: asynchronous batch completion ===
+  batch b-69f535afc5ce acknowledged in 282 ms; waiting for completion + callback ...
+  [PASS] Initial acknowledgement within 1 second: 282 ms for 10,000 requests
+  [PASS] Callback sent only after all requests reached a final state: last request final at +16.95s, sealed at +16.95s, first callback attempt at +17.09s
+  [PASS] Callback delivery succeeds after the destination recovers: attempt status codes [503, 503, 200]; delivered on attempt 3
+  [PASS] Callback summary matches the batch status returned by the API: callback: status=completed_with_errors total=10000 successful=9788 failed=212; API identical=True (sha256 99c6e1a60a64...)
+  [PASS] Every request id appears exactly once in the final batch result: 10,000 results, 10,000 unique request ids, all 10,000 client ids present once
+  report: E:\Assignments\ConsumaAssignment\reports\s3\report.md
+
+Summary: s1=FAIL, s2=PASS, s3=PASS

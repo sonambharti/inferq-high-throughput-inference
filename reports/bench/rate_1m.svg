@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" font-family="Segoe UI, sans-serif" font-size="12">
+<rect width="860" height="320" fill="#ffffff"/>
+<text x="70" y="20" font-size="14" font-weight="600">1M/s stretch (offered 1.1M/s): completed requests per second</text>
+<line x1="70" y1="274.0" x2="840" y2="274.0" stroke="#e5e7eb"/>
+<text x="64" y="278.0" text-anchor="end" fill="#6b7280">0</text>
+<line x1="70" y1="226.4" x2="840" y2="226.4" stroke="#e5e7eb"/>
+<text x="64" y="230.4" text-anchor="end" fill="#6b7280">299k</text>
+<line x1="70" y1="178.8" x2="840" y2="178.8" stroke="#e5e7eb"/>
+<text x="64" y="182.8" text-anchor="end" fill="#6b7280">597k</text>
+<line x1="70" y1="131.2" x2="840" y2="131.2" stroke="#e5e7eb"/>
+<text x="64" y="135.2" text-anchor="end" fill="#6b7280">896k</text>
+<line x1="70" y1="83.6" x2="840" y2="83.6" stroke="#e5e7eb"/>
+<text x="64" y="87.6" text-anchor="end" fill="#6b7280">1.2M</text>
+<line x1="70" y1="36.0" x2="840" y2="36.0" stroke="#e5e7eb"/>
+<text x="64" y="40.0" text-anchor="end" fill="#6b7280">1.5M</text>
+<text x="70.0" y="290" text-anchor="middle" fill="#6b7280">0</text>
+<text x="198.3" y="290" text-anchor="middle" fill="#6b7280">5</text>
+<text x="326.7" y="290" text-anchor="middle" fill="#6b7280">10</text>
+<text x="455.0" y="290" text-anchor="middle" fill="#6b7280">14</text>
+<text x="583.3" y="290" text-anchor="middle" fill="#6b7280">19</text>
+<text x="711.7" y="290" text-anchor="middle" fill="#6b7280">24</text>
+<text x="840.0" y="290" text-anchor="middle" fill="#6b7280">29</text>
+<text x="455.0" y="314" text-anchor="middle" fill="#374151">seconds since start</text>
+<text x="14" y="155.0" transform="rotate(-90 14 155.0)" text-anchor="middle" fill="#374151">completed / s</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="1.8" points="70.0,135.4 96.6,164.8 123.1,57.6 149.7,90.3 176.2,87.0 202.8,111.0 229.3,88.0 255.9,108.7 282.4,91.0 309.0,100.4 335.5,92.4 362.1,106.3 388.6,95.1 415.2,100.6 441.7,101.5 468.3,101.4 494.8,86.9 521.4,106.0 547.9,93.5 574.5,103.4 601.0,94.0 627.6,100.3 654.1,97.8 680.7,102.9 707.2,98.9 733.8,92.3 760.3,106.2 786.9,96.7 813.4,102.2 840.0,84.4"/>
+<line x1="80" y1="292" x2="98" y2="292" stroke="#2563eb" stroke-width="2"/>
+<text x="104" y="296" fill="#111827">completed / s</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="6 4" points="70.0,114.6 840.0,114.6"/>
+<line x1="270" y1="292" x2="288" y2="292" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="294" y="296" fill="#111827">goal</text>
+</svg>
